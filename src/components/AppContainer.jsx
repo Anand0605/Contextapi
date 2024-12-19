@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
-import { ThemeContext } from '../components/ThemeToggler';
+import { ThemeContext } from '../context/ThemeContext';
+
 
 const AppContainer = ({ children }) => {
   const { theme } = useContext(ThemeContext);
