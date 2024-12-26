@@ -11,7 +11,7 @@ const AppContainer = ({ children }) => {
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
-    backgroundColor: theme === 'light' ? '#fff' : '#333',
+    backgroundColor: theme === 'light' ? 'green' : 'red',
     color: theme === 'light' ? '#000' : '#fff',
   };
 
